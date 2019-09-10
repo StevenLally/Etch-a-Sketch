@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.container {
+    border: solid 2px #000000;
+    width: 800px;
+    height: 800px;
+    padding: 0;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.container div {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+.options {
+    text-decoration: none;
+    position: fixed;
+    top: 75px;
+    width: 100%;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
